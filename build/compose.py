@@ -76,7 +76,7 @@ def main():
     lead = load('media-generation-news-lead-bahrain-0-1c99713a-e31b-4f3b-9559-4c71f830c203.webp')
     mexico = load('media-generation-news-mexico-cartel-0-a4e965f1-863f-4fad-a19b-3b80f5a5db50.webp')
     cop31 = load('media-generation-news-cop31-0-3ebb863a-c531-49de-a919-e14a2179efbc.webp')
-    baltic = load('media-generation-news-baltic-ship-0-1b41eba0-80d2-441f-95f7-9802118d69c4.webp')
+    benghazi = load('media-generation-news-benghazi-corvette-0-376466bf-c4e7-4322-8348-8ad77a3700a3.webp')
     markets = load('media-generation-news-markets-0-8be63ed0-766f-490b-a3f9-4cd59d5b0466.webp')
 
     # ---- lead + right column ----
@@ -85,11 +85,11 @@ def main():
     panel(canvas, d, 644, 156, 356, 218, mexico,
           'CARTEL BOSS CAPTURED', '11 killed in Sinaloa raid', 25, 20)
     panel(canvas, d, 644, 390, 356, 218, cop31,
-          'COP31 TALKS STALL', 'Overtime over fossil fuels', 25, 20)
+          'COP31 COLLAPSES', 'No deal as EU rejects text', 25, 20)
 
     # ---- bottom row: two wide panels (v2: full width, no side column) ----
-    panel(canvas, d, 24, 624, 480, 218, baltic,
-          'DRONE HITS RUSSIAN SHIP', 'Baltic crew evacuated', 23, 19)
+    panel(canvas, d, 24, 624, 480, 218, benghazi,
+          'RUSSIAN WARSHIP SUNK', 'Sea drones hit corvette in Libya', 23, 19)
     panel(canvas, d, 520, 624, 480, 218, markets,
           'AI SELL-OFF SINKS STOCKS', 'Wall Street in correction', 23, 19)
 
@@ -102,8 +102,8 @@ def main():
     briefs = [
         'EU–Indonesia trade deal sealed',
         'Missile hits Kryvyi Rih, Ukraine',
-        'UN draft rules on autonomous weapons',
-        'Alcaraz v Zverev: ATP Finals decider',
+        'Democrats win House, 258 seats',
+        'Alcaraz wins ATP Finals title',
     ]
     cols = [x + 218, x + 606]
     rows = [y + 6, y + 34]
